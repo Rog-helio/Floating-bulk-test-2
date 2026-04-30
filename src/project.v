@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_Rog-helio_ (
+module tt_um_rog_helio_ (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
