@@ -5,8 +5,8 @@ VERSION 5.7 ;
 MACRO tt_um_rog_helio_
   CLASS BLOCK ;
   FOREIGN tt_um_rog_helio_ ;
-  ORIGIN -1.000 0.000 ;
-  SIZE 151.710 BY 225.760 ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 161.000 BY 225.760 ;
   PIN clk
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -438,17 +438,17 @@ MACRO tt_um_rog_helio_
   END VGND
   OBS
       LAYER nwell ;
-        RECT 107.930 6.300 114.980 17.660 ;
+        RECT 112.010 7.820 119.060 19.180 ;
       LAYER li1 ;
-        RECT 108.210 6.125 114.710 17.390 ;
+        RECT 112.290 7.645 118.790 18.910 ;
       LAYER met1 ;
-        RECT 91.750 3.750 128.150 20.200 ;
+        RECT 96.150 5.250 130.800 21.750 ;
       LAYER met2 ;
-        RECT 74.900 3.700 143.950 20.250 ;
+        RECT 74.650 2.250 145.450 21.800 ;
       LAYER met3 ;
-        RECT 74.900 2.300 151.050 20.250 ;
+        RECT 74.650 2.000 152.600 21.800 ;
       LAYER met4 ;
-        RECT 74.900 1.400 152.400 4.950 ;
+        RECT 74.650 1.400 152.600 5.500 ;
         RECT 75.830 1.000 93.450 1.400 ;
         RECT 95.150 1.000 112.770 1.400 ;
         RECT 114.470 1.000 132.090 1.400 ;

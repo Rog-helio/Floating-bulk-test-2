@@ -2,11 +2,11 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_Rog-helio_
+MACRO tt_um_Rog-helio
   CLASS BLOCK ;
-  FOREIGN tt_um_Rog-helio_ ;
-  ORIGIN -1.000 0.000 ;
-  SIZE 151.710 BY 225.760 ;
+  FOREIGN tt_um_Rog-helio ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 161.000 BY 225.760 ;
   PIN clk
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -34,7 +34,6 @@ MACRO tt_um_Rog-helio_
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 9.653000 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
@@ -43,7 +42,6 @@ MACRO tt_um_Rog-helio_
   PIN ua[1]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.121800 ;
     PORT
       LAYER met4 ;
         RECT 132.490 0.000 133.390 1.000 ;
@@ -52,7 +50,6 @@ MACRO tt_um_Rog-helio_
   PIN ua[2]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.220800 ;
     PORT
       LAYER met4 ;
         RECT 113.170 0.000 114.070 1.000 ;
@@ -61,7 +58,6 @@ MACRO tt_um_Rog-helio_
   PIN ua[3]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.063000 ;
     PORT
       LAYER met4 ;
         RECT 93.850 0.000 94.750 1.000 ;
@@ -70,7 +66,6 @@ MACRO tt_um_Rog-helio_
   PIN ua[4]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.063000 ;
     PORT
       LAYER met4 ;
         RECT 74.530 0.000 75.430 1.000 ;
@@ -436,24 +431,6 @@ MACRO tt_um_Rog-helio_
         RECT 4.000 5.000 6.000 220.760 ;
     END
   END VGND
-  OBS
-      LAYER nwell ;
-        RECT 107.930 6.300 114.980 17.660 ;
-      LAYER li1 ;
-        RECT 108.210 6.125 114.710 17.390 ;
-      LAYER met1 ;
-        RECT 91.750 3.750 128.150 20.200 ;
-      LAYER met2 ;
-        RECT 74.900 3.700 143.950 20.250 ;
-      LAYER met3 ;
-        RECT 74.900 2.300 151.050 20.250 ;
-      LAYER met4 ;
-        RECT 74.900 1.400 152.400 4.950 ;
-        RECT 75.830 1.000 93.450 1.400 ;
-        RECT 95.150 1.000 112.770 1.400 ;
-        RECT 114.470 1.000 132.090 1.400 ;
-        RECT 133.790 1.000 151.410 1.400 ;
-  END
-END tt_um_Rog-helio_
+END tt_um_Rog-helio
 END LIBRARY
 
