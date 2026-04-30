@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_Rog-helio_
+MACRO tt_um_rog_helio_
   CLASS BLOCK ;
-  FOREIGN tt_um_Rog-helio_ ;
+  FOREIGN tt_um_rog_helio_ ;
   ORIGIN -1.000 0.000 ;
   SIZE 151.710 BY 225.760 ;
   PIN clk
@@ -454,6 +454,6 @@ MACRO tt_um_Rog-helio_
         RECT 114.470 1.000 132.090 1.400 ;
         RECT 133.790 1.000 151.410 1.400 ;
   END
-END tt_um_Rog-helio_
+END tt_um_rog_helio_
 END LIBRARY
 
