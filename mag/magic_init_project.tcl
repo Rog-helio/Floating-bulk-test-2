@@ -8,7 +8,7 @@
 
 # Change the settings below to match your design:
 # ------------------------------------------------
-set TOP_LEVEL_CELL     tt_um_rog_helio_
+set TOP_LEVEL_CELL     tt_um_floating_bulk_test_2
 set TEMPLATE_FILE      tt_analog_1x2.def
 set POWER_STRIPE_WIDTH 2um                 ;# The minimum width is 1.2um
 
