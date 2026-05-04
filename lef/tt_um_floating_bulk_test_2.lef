@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_floating_bulk_test_2
+MACRO tt_um_rog_helio_
   CLASS BLOCK ;
-  FOREIGN tt_um_floating_bulk_test_2 ;
+  FOREIGN tt_um_rog_helio_ ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
@@ -488,6 +488,6 @@ MACRO tt_um_floating_bulk_test_2
         RECT 112.310 9.550 112.650 11.870 ;
         RECT 112.240 9.100 112.700 9.550 ;
   END
-END tt_um_floating_bulk_test_2
+END tt_um_rog_helio_
 END LIBRARY
 
