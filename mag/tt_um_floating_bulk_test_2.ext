@@ -1,4 +1,4 @@
-timestamp 1777874299
+timestamp 1777874439
 version 8.3
 tech sky130A
 style ngspice()
@@ -113,61 +113,61 @@ node "ua[4]" 12 5323.96 14906 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "ua[0]" 12 5347.23 30362 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 179800 3800 608600 12320 403700 8000 82200 1600 0 0 0 0
 node "w_22248_2380#" 4673 0 22248 2380 pw 745820 3456 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "uio_in[2]" "uio_in[1]" 31.0231
-cap "uio_in[2]" "uio_in[3]" 31.0231
-cap "uo_out[2]" "uo_out[1]" 31.0231
-cap "uio_oe[5]" "uio_oe[6]" 31.0231
-cap "clk" "ena" 31.0231
-cap "ui_in[1]" "ui_in[0]" 31.0231
-cap "uio_oe[5]" "uio_oe[4]" 31.0231
-cap "uio_out[4]" "uio_out[5]" 31.0231
-cap "uo_out[7]" "uo_out[6]" 31.0231
-cap "ui_in[5]" "ui_in[4]" 31.0231
-cap "uio_in[5]" "uio_in[4]" 31.0231
-cap "uio_out[4]" "uio_out[3]" 31.0231
-cap "uio_oe[3]" "uio_oe[2]" 31.0231
-cap "uio_out[1]" "uio_out[2]" 31.0231
-cap "uio_out[3]" "uio_out[2]" 31.0231
-cap "VGND" "VDPWR" 12918.1
-cap "ui_in[3]" "ui_in[2]" 31.0231
-cap "uo_out[7]" "uio_out[0]" 31.0231
-cap "clk" "rst_n" 31.0231
-cap "ui_in[6]" "ui_in[5]" 31.0231
-cap "uio_oe[6]" "uio_oe[7]" 31.0231
-cap "uio_oe[4]" "uio_oe[3]" 31.0231
-cap "uio_out[1]" "uio_out[0]" 31.0231
-cap "uio_out[6]" "uio_out[7]" 31.0231
-cap "uio_oe[2]" "uio_oe[1]" 31.0231
-cap "uo_out[5]" "uo_out[6]" 31.0231
-cap "uo_out[0]" "uo_out[1]" 31.0231
-cap "uio_in[7]" "uo_out[0]" 31.0231
-cap "uio_out[7]" "uio_oe[0]" 31.0231
-cap "w_22248_2380#" "ua[2]" 0.148428
-cap "rst_n" "ui_in[0]" 31.0231
-cap "ui_in[3]" "ui_in[4]" 31.0231
-cap "uio_oe[1]" "uio_oe[0]" 31.0231
-cap "ui_in[2]" "ui_in[1]" 31.0231
-cap "uio_in[1]" "uio_in[0]" 31.0231
 cap "uio_in[5]" "uio_in[6]" 31.0231
-cap "ui_in[6]" "ui_in[7]" 31.0231
-cap "uo_out[5]" "uo_out[4]" 31.0231
-cap "uio_out[5]" "uio_out[6]" 31.0231
-cap "uio_in[7]" "uio_in[6]" 31.0231
-cap "uio_in[4]" "uio_in[3]" 31.0231
-cap "uo_out[3]" "uo_out[2]" 31.0231
-cap "uo_out[4]" "uo_out[3]" 31.0231
+cap "w_22248_2380#" "ua[2]" 0.148428
+cap "uo_out[0]" "uo_out[1]" 31.0231
+cap "ui_in[0]" "ui_in[1]" 31.0231
+cap "ui_in[4]" "ui_in[5]" 31.0231
+cap "uio_out[3]" "uio_out[2]" 31.0231
+cap "rst_n" "ui_in[0]" 31.0231
+cap "uio_in[3]" "uio_in[2]" 31.0231
+cap "uio_out[6]" "uio_out[7]" 31.0231
+cap "uio_oe[3]" "uio_oe[2]" 31.0231
+cap "uo_out[5]" "uo_out[6]" 31.0231
+cap "uio_out[0]" "uio_out[1]" 31.0231
+cap "uio_out[2]" "uio_out[1]" 31.0231
+cap "ui_in[6]" "ui_in[5]" 31.0231
+cap "uio_in[3]" "uio_in[4]" 31.0231
+cap "uio_oe[6]" "uio_oe[7]" 31.0231
+cap "uo_out[2]" "uo_out[3]" 31.0231
+cap "clk" "ena" 31.0231
+cap "uio_in[1]" "uio_in[0]" 31.0231
+cap "uo_out[4]" "uo_out[5]" 31.0231
+cap "rst_n" "clk" 31.0231
+cap "uo_out[7]" "uio_out[0]" 31.0231
+cap "ui_in[4]" "ui_in[3]" 31.0231
+cap "VGND" "VDPWR" 12918.1
+cap "uio_oe[4]" "uio_oe[5]" 31.0231
+cap "uio_out[6]" "uio_out[5]" 31.0231
+cap "ui_in[2]" "ui_in[1]" 31.0231
+cap "uio_out[3]" "uio_out[4]" 31.0231
+cap "uio_in[4]" "uio_in[5]" 31.0231
 cap "uio_in[0]" "ui_in[7]" 31.0231
+cap "uo_out[0]" "uio_in[7]" 31.0231
+cap "uio_in[7]" "uio_in[6]" 31.0231
+cap "uio_oe[0]" "uio_oe[1]" 31.0231
+cap "ui_in[2]" "ui_in[3]" 31.0231
+cap "uio_oe[6]" "uio_oe[5]" 31.0231
+cap "uio_oe[0]" "uio_out[7]" 31.0231
+cap "uio_in[2]" "uio_in[1]" 31.0231
+cap "uo_out[3]" "uo_out[4]" 31.0231
+cap "uio_out[5]" "uio_out[4]" 31.0231
+cap "uo_out[7]" "uo_out[6]" 31.0231
+cap "ui_in[6]" "ui_in[7]" 31.0231
+cap "uio_oe[2]" "uio_oe[1]" 31.0231
+cap "uio_oe[3]" "uio_oe[4]" 31.0231
+cap "uo_out[1]" "uo_out[2]" 31.0231
 cap "triple_well_NS_nfet2_0/a_19_n1397#" "triple_well_NS_nfet2_0/a_67_n1309#" 0.836359
-cap "triple_well_NS_nfet2_0/a_67_n1309#" "triple_well_NS_nfet2_0/a_89_163#" 2.45076
-cap "triple_well_NS_nfet2_0/a_67_n1309#" "triple_well_NS_nfet2_0/w_n242_n250#" -0.148428
+cap "triple_well_NS_nfet2_0/a_89_163#" "triple_well_NS_nfet2_0/a_67_n1309#" 2.45076
 cap "triple_well_NS_nfet2_0/a_67_n1309#" "triple_well_NS_nfet2_0/dw_n448_n456#" 0.66296
-cap "triple_well_NS_nfet2_0/a_67_n1309#" "triple_well_NS_nfet2_0/a_19_n1397#" 0.755149
-cap "triple_well_NS_nfet2_0/a_89_163#" "triple_well_NS_nfet2_0/w_n242_n250#" 0.430876
-cap "triple_well_NS_nfet2_0/dw_n448_n456#" "triple_well_NS_nfet2_0/a_67_n1309#" 0.119496
-cap "triple_well_NS_nfet2_0/a_67_n1309#" "triple_well_NS_nfet2_0/a_89_163#" 1.58496
-cap "triple_well_NS_nfet2_0/w_n242_n250#" "triple_well_NS_nfet2_0/a_89_163#" 0.566283
+cap "triple_well_NS_nfet2_0/a_67_n1309#" "triple_well_NS_nfet2_0/w_n242_n250#" -0.148428
+cap "triple_well_NS_nfet2_0/a_19_n1397#" "triple_well_NS_nfet2_0/a_67_n1309#" 0.755149
+cap "triple_well_NS_nfet2_0/w_n242_n250#" "triple_well_NS_nfet2_0/a_89_163#" 0.430876
 cap "triple_well_NS_nfet2_0/dw_n448_n456#" "triple_well_NS_nfet2_0/a_89_163#" 0.878997
-cap "triple_well_NS_nfet2_0/dw_n448_n456#" "triple_well_NS_nfet2_0/a_129_75#" 0.218905
+cap "triple_well_NS_nfet2_0/w_n242_n250#" "triple_well_NS_nfet2_0/a_89_163#" 0.566283
+cap "triple_well_NS_nfet2_0/a_67_n1309#" "triple_well_NS_nfet2_0/a_89_163#" 1.58496
+cap "triple_well_NS_nfet2_0/a_67_n1309#" "triple_well_NS_nfet2_0/dw_n448_n456#" 0.119496
+cap "triple_well_NS_nfet2_0/a_129_75#" "triple_well_NS_nfet2_0/dw_n448_n456#" 0.218905
 cap "triple_well_NS_nfet2_0/dw_n448_n456#" "triple_well_NS_nfet2_0/a_129_75#" 0.218905
 merge "triple_well_NS_nfet2_0/a_67_n1309#" "VSUBS" -81.8309 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4900 -280 0 0 0 0 0 0 0 0 0 0
 merge "VSUBS" "ua[2]"
