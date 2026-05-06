@@ -21,8 +21,8 @@ Export GDS and LEF collateral compatible with the Tiny Tapeout analog/custom lay
 | Tile size | `1x2` |
 | Design type | Neurosynaptic circuit |
 | Implementation style | Custom layout using SKY130 n-fets |
-| Supply |  |
-| Project participants | Arangure Jacqueline, Garzón Rogelio, Leal Cesar, Lopez Alejandra, Lopez Brenda, Salinas Felipe, Valtierra José |
+| Project Supervisor | José Luis Valtierra Sánchez de la Vega |
+| Project Participants | Rogelio Garzon, Jacqueline Arangure,  Cesar Leal, Alejandra Lopez, Brenda Lopez, Felipe Salinas |
 
 ## Design Concept
 The circuit consists of two MOSFETs: a Synaptic Transistor and a Control Transistor. By connecting the body (bulk) of the synaptic transistor to the drain of the control transistor, the circuit achieves a non-volatile-like memory effect. The hysteresis observed in the output current allows the transistor to "remember" previous states.
