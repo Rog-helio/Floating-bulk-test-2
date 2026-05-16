@@ -34,7 +34,6 @@ MACRO tt_um_floating_bulk_test_2
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 9.653000 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
@@ -442,13 +441,13 @@ MACRO tt_um_floating_bulk_test_2
       LAYER li1 ;
         RECT 110.190 3.745 116.690 15.010 ;
       LAYER met1 ;
-        RECT 82.950 1.150 144.450 17.950 ;
+        RECT 82.950 1.250 152.550 17.950 ;
       LAYER met2 ;
-        RECT 74.750 1.150 152.600 17.950 ;
+        RECT 74.750 1.250 152.550 17.950 ;
       LAYER met3 ;
-        RECT 74.750 1.150 152.600 17.950 ;
+        RECT 74.750 1.250 152.550 17.950 ;
       LAYER met4 ;
-        RECT 74.750 1.400 152.600 7.650 ;
+        RECT 74.750 1.400 152.550 7.650 ;
         RECT 75.830 1.000 93.450 1.400 ;
         RECT 95.150 1.000 112.770 1.400 ;
         RECT 114.470 1.000 132.090 1.400 ;
