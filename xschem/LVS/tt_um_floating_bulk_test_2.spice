@@ -1,0 +1,4 @@
+* SPICE3 file created from tt_um_floating_bulk_test_2.ext - technology: sky130A
+
+X0 ua[0] ua[4] ua[1] w_22268_1880# sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=0.15
+X1 ua[2] ua[3] w_22268_1880# ua[2] sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=0.15

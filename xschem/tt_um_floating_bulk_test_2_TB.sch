@@ -5,79 +5,79 @@ V {}
 S {}
 F {}
 E {}
-N -1530 40 -1530 300 {
+N -50 -20 -50 240 {
 lab=GND}
-N -1590 300 -1530 300 {
+N -110 240 -50 240 {
 lab=GND}
-N -1610 100 -1580 100 {
+N -130 40 -100 40 {
 lab=VOUT}
-N -1580 40 -1530 40 {
+N -100 -20 -50 -20 {
 lab=GND}
-N -1720 10 -1640 10 {
+N -240 -50 -160 -50 {
 lab=#net1}
-N -1720 70 -1720 100 {
+N -240 10 -240 40 {
 lab=GND}
-N -1720 100 -1720 160 {
+N -240 40 -240 100 {
 lab=GND}
-N -1810 160 -1720 160 {
+N -330 100 -240 100 {
 lab=GND}
-N -1640 300 -1640 320 {
+N -160 240 -160 260 {
 lab=GND}
-N -1810 160 -1810 280 {
+N -330 100 -330 220 {
 lab=GND}
-N -1810 280 -1640 280 {
+N -330 220 -160 220 {
 lab=GND}
-N -1740 230 -1740 240 {
+N -260 170 -260 180 {
 lab=#net2}
-N -1740 230 -1680 230 {
+N -260 170 -200 170 {
 lab=#net2}
-N -1640 280 -1640 300 {
+N -160 220 -160 240 {
 lab=GND}
-N -1640 300 -1590 300 {
+N -160 240 -110 240 {
 lab=GND}
-N -1640 10 -1420 10 {
+N -160 -50 60 -50 {
 lab=#net1}
-N -1620 100 -1610 100 {
+N -140 40 -130 40 {
 lab=VOUT}
-N -1620 100 -1620 170 {
+N -140 40 -140 110 {
 lab=VOUT}
-N -1620 170 -1390 170 {
+N -140 110 90 110 {
 lab=VOUT}
-N -1390 -60 -1390 170 {
+N 90 -120 90 110 {
 lab=VOUT}
-N -1390 -80 -1390 -60 {
+N 90 -140 90 -120 {
 lab=VOUT}
-N -1680 230 -1480 230 {lab=#net2}
-N -1390 -140 -1390 -80 {lab=VOUT}
-N -1520 -140 -1390 -140 {lab=VOUT}
-N -1530 40 -1440 40 {lab=GND}
-N -1440 -120 -1440 40 {lab=GND}
-N -1520 -120 -1440 -120 {lab=GND}
-N -1520 -100 -1440 -100 {lab=GND}
-N -1420 -60 -1420 10 {lab=#net1}
-N -1520 -60 -1420 -60 {lab=#net1}
-N -1480 -80 -1480 230 {lab=#net2}
-N -1520 -80 -1480 -80 {lab=#net2}
-C {devices/gnd.sym} -1640 320 0 0 {name=l18 lab=GND
+N -200 170 0 170 {lab=#net2}
+N 90 -200 90 -140 {lab=VOUT}
+N -40 -200 90 -200 {lab=VOUT}
+N -50 -20 40 -20 {lab=GND}
+N 40 -180 40 -20 {lab=GND}
+N -40 -180 40 -180 {lab=GND}
+N -40 -160 40 -160 {lab=GND}
+N 60 -120 60 -50 {lab=#net1}
+N -40 -120 60 -120 {lab=#net1}
+N 0 -140 0 170 {lab=#net2}
+N -40 -140 0 -140 {lab=#net2}
+C {devices/gnd.sym} -160 260 0 0 {name=l18 lab=GND
 }
-C {devices/vsource.sym} -1740 270 0 0 {name=VG2 value=0.3 savecurrent=false
+C {devices/vsource.sym} -260 210 0 0 {name=VG2 value=0.3 savecurrent=false
 }
-C {devices/gnd.sym} -1740 300 0 0 {name=l25 lab=GND
+C {devices/gnd.sym} -260 240 0 0 {name=l25 lab=GND
 }
-C {devices/vsource.sym} -1720 40 0 0 {name=VG1 value=0.6 savecurrent=false
+C {devices/vsource.sym} -240 -20 0 0 {name=VG1 value=0.6 savecurrent=false
 }
-C {devices/vsource.sym} -1580 70 2 0 {name=VDS1 value="PWL(0 0.1 20u 6 40u 0.1 60u 6 80u 0.1 100u 6 120u 0.1 140u 6 160u 0.1 180u 6 200u 0.1 220u 6 240u 0.1)" savecurrent=false
+C {devices/vsource.sym} -100 10 2 0 {name=VDS1 value="PWL(0 0.1 20u 6 40u 0.1 60u 6 80u 0.1 100u 6 120u 0.1 140u 6 160u 0.1 180u 6 200u 0.1 220u 6 240u 0.1)" savecurrent=false
 }
-C {devices/lab_pin.sym} -1600 100 3 0 {name=p4 sig_type=std_logic lab=VOUT
+C {devices/lab_pin.sym} -120 40 3 0 {name=p4 sig_type=std_logic lab=VOUT
 }
-C {sky130_fd_pr/corner.sym} -2250 -130 0 0 {name=CORNER only_toplevel=true corner=tt}
-C {code.sym} -2090 -130 0 0 {name=STDCELLS_INCLUDE only_toplevel=false 
+C {sky130_fd_pr/corner.sym} -770 -190 0 0 {name=CORNER only_toplevel=true corner=tt}
+C {code.sym} -610 -190 0 0 {name=STDCELLS_INCLUDE only_toplevel=false 
 format="tcleval( @value )"
 value="
 .include /home/rogel/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
 "
 place=header}
-C {code_shown.sym} -2250 150 0 0 {name=s2 only_toplevel=false value="
+C {code_shown.sym} -770 90 0 0 {name=s2 only_toplevel=false value="
 .control
 set num_threads=8
 option klu
@@ -97,4 +97,4 @@ write tt_um_floating_bulk_test_2_TB.raw
 .endc
 "
 }
-C {/home/rogel/xschem_attempts/VALTIERRA_PROJECT/tt_um_floating_bulk_test_2.sym} -1670 -100 0 0 {name=x1}
+C {tt_um_floating_bulk_test_2.sym} -190 -160 0 0 {name=x1}

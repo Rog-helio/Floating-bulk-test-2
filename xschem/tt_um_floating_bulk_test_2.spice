@@ -1,16 +1,3 @@
-v {xschem version=3.4.8RC file_version=1.3}
-G {}
-K {}
-V {}
-S {}
-F {}
-E {}
-N -120 -40 -80 -40 {lab=ua[0]}
-N -120 -20 -80 -20 {lab=ua[1]}
-N -120 0 -80 0 {lab=ua[2]}
-N -120 20 -80 20 {lab=ua[3]}
-N -120 40 -80 40 {lab=ua[4]}
-C {code.sym} 0 -50 0 0 {name=s1 only_toplevel=false value="
 * SPICE3 file created from tt_um_floating_bulk_test_2.ext - technology: sky130A
 
 X0 ua[0] ua[4] ua[1] w_22268_1880# sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=0.15
@@ -70,16 +57,5 @@ C51 VGND ua[2] 20.2701f
 C52 ua[3] ua[2] 2.66691f
 C53 ua[1] ua[2] 1.53041f
 C54 ua[4] ua[2] 5.50486f
-C55 w_22268_1880# ua[2] 0.53599f ;**FLOATING
+C55 w_22268_1880# ua[2] 0.53599f **FLOATING
 C56 ua[0] ua[2] 13.97601f
-"}
-C {iopin.sym} -80 -40 0 0 {name=p1 lab=ua[0]}
-C {lab_pin.sym} -120 -40 0 0 {name=p2 sig_type=std_logic lab=ua[0]}
-C {iopin.sym} -80 -20 0 0 {name=p3 lab=ua[1]}
-C {lab_pin.sym} -120 -20 0 0 {name=p4 sig_type=std_logic lab=ua[1]}
-C {iopin.sym} -80 0 0 0 {name=p5 lab=ua[2]}
-C {lab_pin.sym} -120 0 0 0 {name=p6 sig_type=std_logic lab=ua[2]}
-C {iopin.sym} -80 20 0 0 {name=p7 lab=ua[3]}
-C {lab_pin.sym} -120 20 0 0 {name=p8 sig_type=std_logic lab=ua[3]}
-C {iopin.sym} -80 40 0 0 {name=p9 lab=ua[4]}
-C {lab_pin.sym} -120 40 0 0 {name=p10 sig_type=std_logic lab=ua[4]}

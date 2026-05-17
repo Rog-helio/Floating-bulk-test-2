@@ -1,0 +1,13 @@
+** sch_path: /home/rogel/xschem_attempts/Floatingbulktest2final/tt_um_floating_bulk_test_2_NETGEN.sch
+**.subckt tt_um_floating_bulk_test_2_NETGEN ua[0] ua[1] ua[2] ua[3] ua[4]
+*.ipin ua[0]
+*.ipin ua[1]
+*.ipin ua[2]
+*.ipin ua[3]
+*.ipin ua[4]
+XM1 ua[0] ua[4] ua[1] net1 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 net1 ua[3] ua[2] ua[2] sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+**.ends
+.end
